@@ -115,7 +115,7 @@ public final class WorldWarper extends JavaPlugin
 			
 			Bukkit.broadcast(Component.text("WOOoooOOOOooooOosh").color(TextColor.color(0, 255, 0)));
 			lastWarp = currentTick;
-			Bukkit.broadcast(Component.text(((TIME_TO_WARP / (60 * 20)) + 1) + "  minutes until next warp!").color(TextColor.color(255, 0 ,0)));
+			Bukkit.broadcast(Component.text(((TIME_TO_WARP / (60 * 20))) + " minutes until next warp!").color(TextColor.color(255, 0 ,0)));
 		}
 		else if(ticksPassed % (60 * 20) == 0) { //&& minsLeft > 0) {
 			Bukkit.broadcast(Component.text(minsLeft + " minutes until next warp!").color(TextColor.color(255, 0 ,0)));
