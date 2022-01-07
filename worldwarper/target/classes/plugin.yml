@@ -1,0 +1,7 @@
+name: WorldWarper
+version: '1.0-SNAPSHOT'
+main: worldwarper.worldwarper.WorldWarper
+api-version: 1.18
+authors: [ toomuchzelda ]
+description: Every 5 minutes get teleported somewhere else!
+website: https://www.spigotmc.org/members/toomuchzelda.473378/
